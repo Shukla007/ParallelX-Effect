@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+.pimg1{
+    background: url(img/sunset-1373171_1920.jpg) ;
+    min-height:100%;
+    position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    
+}
+.pimg2{
+    background: url(img/forest-931706_640.jpg);
+    min-height:400px;
+    position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+  
+}
+.pimg3{
+    background: url(img/hills-889131_640.jpg);
+    min-height:400px;
+    position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+}
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+ .section-light{
+     background: #f4f4f4;
+     color: #666;
+ }
+
+ .section-dark{
+    background: #282e34;
+    color: #ddd;
+}
+
+.ptext .border{
+    background: #282e34;
+    color: #ddd; 
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 10px;
+    
+    transform: translateX(-50% );
+  
+   position: absolute;
+   padding: 1.8rem;
+   font-size: 2rem;
+
+}
